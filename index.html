@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Kailasa Mari M - Electronics & Communication Engineering Student, Full Stack & AI Developer specializing in Java, Spring Boot, React, and Machine Learning.">
+  <meta name="author" content="Kailasa Mari M">
+  <title>Kailasa Mari M | Software Engineer & AI Developer Portfolio</title>
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2338bdf8'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='16' fill='%230b0f19'%3EKM%3C/text%3E%3C/svg%3E">
+
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient Background Accents -->
+  <div class="bg-glow-overlay" aria-hidden="true"></div>
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Kailasa Mari M Portfolio Home">
+        <span class="brand-badge">KM</span>
+        <span class="brand-name">KAILASA MARI M</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav id="siteNav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Resume Button, Theme Switcher & Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Accessible Resume Link in Navigation -->
+        <a href="public/My_Resume.docx" class="btn btn-outline btn-sm resume-download-trigger" aria-label="Download Kailasa Mari M Resume">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle color theme">
+          <svg id="sunIcon" viewBox="0 0 24 24" style="display: block;" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="moonIcon" viewBox="0 0 24 24" style="display: none;" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileNavToggle" class="mobile-nav-toggle" aria-label="Open mobile menu" aria-expanded="false" aria-controls="navLinks">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-pulse" aria-hidden="true"></span>
+            <span>ECE Undergraduate &bull; Karpagam College of Engineering</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br><span class="name-highlight hero-name-target">KAILASA MARI M</span>
+          </h1>
+
+          <p class="hero-role hero-role-target">
+            Electronics & Communication Engineering Student | Full Stack & AI Developer
+          </p>
+
+          <p class="hero-description">
+            Passionate about architecting enterprise full-stack microservices with Spring Boot and building AI-driven solutions using TensorFlow & FastAPI. Proficient in Java, React.js, and competitive programming with 200+ solved LeetCode challenges.
+          </p>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span class="hero-location-target">Thoothukudi, Tamil Nadu, India</span>
+            </div>
+            <div class="hero-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              <span>CGPA: 8.4 / 10.00</span>
+            </div>
+          </div>
+
+          <!-- Hero Call-to-Actions (Download Resume Button is Primary) -->
+          <div class="hero-cta">
+            <a href="public/My_Resume.docx" class="btn btn-primary resume-download-trigger" aria-label="Download Official Resume DOCX/PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Clickable Social & Developer Profile Links -->
+          <div class="social-links-bar">
+            <span class="social-label">Profiles &bull;</span>
+            <div id="socialLinksContainer" style="display: inline-flex; gap: 0.75rem;">
+              <!-- Dynamically populated from PORTFOLIO_DATA -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Highlights Card -->
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <h2 class="hero-card-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              Academic & Tech Highlights
+            </h2>
+          </div>
+
+          <div class="card-stats-grid">
+            <div class="stat-box">
+              <div class="stat-number">8.4</div>
+              <div class="stat-label">B.E ECE CGPA (KCE)</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="stat-number">200+</div>
+              <div class="stat-label">LeetCode Problems Solved</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="stat-number">1473</div>
+              <div class="stat-label">LeetCode Contest Rating</div>
+            </div>
+
+            <div class="stat-box">
+              <div class="stat-number">94.62%</div>
+              <div class="stat-label">Deep Learning Accuracy (CropCare AI)</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-color);">
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;">
+              Primary Competencies
+            </div>
+            <div class="tags-list">
+              <span class="tag-chip">Spring Boot</span>
+              <span class="tag-chip">Microservices</span>
+              <span class="tag-chip">React.js</span>
+              <span class="tag-chip">Java 21</span>
+              <span class="tag-chip">TensorFlow</span>
+              <span class="tag-chip">FastAPI</span>
+              <span class="tag-chip">Oracle & MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ABOUT / PROFILE SECTION
+         ======================================================================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">About Kailasa Mari M</h2>
+          <p class="section-subtitle">
+            Electronics and Communication Engineering student at Karpagam College of Engineering with an in-depth foundation in modern full-stack architecture and AI systems.
+          </p>
+        </div>
+
+        <div style="max-width: 860px; margin: 0 auto; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.25rem;">
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.25rem;">
+            I am currently pursuing a <strong>Bachelor of Engineering in Electronics and Communication Engineering</strong> (Graduation expected: April 2028) at <strong>Karpagam College of Engineering, Coimbatore, India</strong>, maintaining a <strong>CGPA of 8.4 / 10.00</strong>.
+          </p>
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.25rem;">
+            My technical focus encompasses <strong>enterprise Java backend development</strong> using Spring Boot microservices, Eureka Service Discovery, and API Gateways with JWT authentication, along with dynamic frontend interfaces built in <strong>React.js</strong>.
+          </p>
+          <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8;">
+            In artificial intelligence, I build and integrate deep learning pipelines using <strong>Python, TensorFlow, and FastAPI</strong>, as demonstrated in the CropCare AI agricultural platform achieving 94.62% test accuracy. Additionally, I actively hone algorithmic problem solving with <strong>200+ solved challenges on LeetCode</strong> and hold Google certifications in AI & Prompting Essentials.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         EDUCATION SECTION
+         ======================================================================= -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Formal qualifications and core computer science coursework from resume.</p>
+        </div>
+
+        <div class="education-timeline" id="educationContainer">
+          <!-- Dynamically populated from PORTFOLIO_DATA.education -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         TECHNICAL SKILLS SECTION
+         ======================================================================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Verified tools, programming languages, and frameworks from resume.</p>
+        </div>
+
+        <div class="skills-grid" id="skillsContainer">
+          <!-- Dynamically populated from PORTFOLIO_DATA.skills -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         PROJECTS SECTION
+         ======================================================================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Engineering Work</span>
+          <h2 class="section-title">Project Experience</h2>
+          <p class="section-subtitle">
+            Authentic implementations from resume. Repository and demo URLs are linked only when provided.
+          </p>
+        </div>
+
+        <div class="projects-grid" id="projectsContainer">
+          <!-- Dynamically populated from PORTFOLIO_DATA.projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ACHIEVEMENTS & CERTIFICATIONS SECTION
+         ======================================================================= -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recognition & Credentials</span>
+          <h2 class="section-title">Achievements & Certifications</h2>
+          <p class="section-subtitle">Competitive programming track record and verified credentials.</p>
+        </div>
+
+        <div class="achievements-grid" id="achievementsContainer">
+          <!-- Dynamically populated from PORTFOLIO_DATA.achievements -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         CONTACT SECTION
+         ======================================================================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Contact & Profiles</h2>
+          <p class="section-subtitle">Reach out for collaborations, internships, and opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Card -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Direct Contact Information</h3>
+            <p class="contact-info-desc">
+              Feel free to connect directly via email, phone, or any of the verified professional profiles.
+            </p>
+
+            <div class="contact-items-list">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Email Address</div>
+                  <a href="mailto:kailasamari@gmail.com" class="contact-item-val email-link-target">kailasamari@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Phone</div>
+                  <a href="tel:+916369811217" class="contact-item-val phone-target">+91 63698 11217</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Location</div>
+                  <span class="contact-item-val hero-location-target">Thoothukudi, Tamil Nadu, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Accessible Resume Link in Contact Section -->
+            <div style="padding-top: 1.5rem; border-top: 1px solid var(--border-color); display: flex; flex-wrap: wrap; gap: 0.75rem;">
+              <a href="public/My_Resume.docx" class="btn btn-primary btn-sm resume-download-trigger" aria-label="Download Official Resume from Contact Section">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume (DOCX)</span>
+              </a>
+
+              <button id="copyEmailBtn" class="btn btn-secondary btn-sm" aria-label="Copy Email Address">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="contact-form-card">
+            <h3 class="contact-info-title">Send a Direct Message</h3>
+            <p class="contact-info-desc">
+              Submitting opens your default email client with a pre-formatted message addressed to Kailasa Mari M.
+            </p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="formName" class="form-label">Your Name</label>
+                <input type="text" id="formName" class="form-input" placeholder="e.g. Jane Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Your Email</label>
+                <input type="email" id="formEmail" class="form-input" placeholder="e.g. jane@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message</label>
+                <textarea id="formMessage" class="form-textarea" placeholder="Hello Kailasa, I would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message via Email</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 <strong>KAILASA MARI M</strong>. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to Top &uarr;</a>
+        <a href="public/My_Resume.docx" class="resume-download-trigger">Resume</a>
+        <a href="https://github.com/Kailash18-Tech" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/kailasamari" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/u/kailash_Tech/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Scripts -->
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
